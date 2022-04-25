@@ -9,9 +9,14 @@ This project builds an ETL pipeline for the music streaming application Sparkify
 + `sql_queries.py`   : Used by other files and contains all the queries used within the project. It includes drop, create, copy, insert and select queries.
 + `dwh.cfg`          : Contains redshift cluster configuration information as well as S3 links of song and log data.
 
-## Database Schema
+## Staging tables
 
-![dwh schema](dwh_schema.png)
+![staging_tables](staging_tables.png)
+
+## Star Schema
+
+![star schema](star_schema.png)
+
 
 ## How to run
 
