@@ -23,7 +23,7 @@ This project builds an ETL pipeline for the music streaming application Sparkify
 To run the project:
 
 1. A redshift cluster with at least 1 dc2.large node, an IAM role with a read access and a VPC that allows all the traffic from outside in us-west-2 region must be created.
-2. After creating cluster, 'CLUSTER' AND 'IAM' sections of dwh.cfg file must be filled according to cluster information.
+2. After creating cluster, 'CLUSTER' and 'IAM' sections of dwh.cfg file must be filled according to cluster information.
 3. Finally, create_tables.py and etl.py can be run respectively.
 
 ## Author
